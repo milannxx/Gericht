@@ -1,0 +1,256 @@
+.knife {
+    background-image: url("../img/bg-knife.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &_container {
+        width: 100%;
+        max-width: 1300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 120px;
+        padding-bottom: 136px;
+
+        &--cardFirst {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 100%;
+            max-width: 523px;
+
+            &--title {
+                font-family: Cormorant Upright;
+                font-weight: 600;
+                font-size: 64px;
+                line-height: 130%;
+                letter-spacing: 3%;
+                text-align: right;
+                text-transform: capitalize;
+                color: #DCCA87;
+                margin-bottom: 8px;
+            }
+
+            &--text {
+                font-family: Open Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 175%;
+                letter-spacing: 4%;
+                text-align: right;
+                color: #AAA;
+                margin: 32px 0;
+            }
+
+            &--button {
+                background-color: #DCCA87;
+                font-family: Cormorant Upright;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 175%;
+                letter-spacing: 4%;
+                color: #0C0C0C;
+                width: 141px;
+                height: 44px;
+                border: none;
+            }
+        }
+
+        &--cardSecond {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 523px;
+
+            &--title {
+                font-family: Cormorant Upright;
+                font-weight: 600;
+                font-size: 64px;
+                line-height: 130%;
+                letter-spacing: 3%;
+                text-align: right;
+                text-transform: capitalize;
+                color: #DCCA87;
+                margin-bottom: 8px;
+            }
+
+            &--text {
+                font-family: Open Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 175%;
+                letter-spacing: 4%;
+                color: #AAA;
+                margin: 32px 0;
+            }
+
+            &--button {
+                background-color: #DCCA87;
+                font-family: Cormorant Upright;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 175%;
+                letter-spacing: 4%;
+                color: #0C0C0C;
+                width: 141px;
+                height: 44px;
+                border: none;
+            }
+        }
+    }
+
+    &_img {
+        position: absolute;
+        bottom: -127px;
+        right: 151px;
+    }
+}
+
+.book {
+
+    &_form {
+        border: 1px #DCCA8733 solid;
+        padding: 48px 32px;
+        margin: 0 auto;
+        margin-top: 157px;
+        margin-bottom: 152px;
+        background-color: #0C0C0C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1364px;
+
+        &--subtitle {
+            font-family: Cormorant Upright;
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 130%;
+            letter-spacing: 4%;
+            text-transform: capitalize;
+            color: #FFF;
+            margin-bottom: 8px;
+        }
+
+        &--title {
+            font-family: Cormorant Upright;
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 130%;
+            letter-spacing: 3%;
+            text-align: center;
+            text-transform: capitalize;
+            color: #DCCA87;
+            margin-bottom: 64px;
+        }
+
+        &--box {
+            width: 100%;
+            max-width: 1300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 64px;
+
+            &--select {
+                width: 412px;
+                height: 60px;
+                outline: none;
+                border: 1px #F5EFDB solid;
+                background-color: #0C0C0C;
+                font-family: Cormorant Upright;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 175%;
+                letter-spacing: 4%;
+                text-align: left;
+                text-transform: capitalize;
+                color: #AAA;
+                padding-left: 16px;
+            }
+        }
+
+        &--button {
+            width: 133px;
+            height: 44px;
+            background-color: #DCCA87;
+            border: none;
+            font-family: Cormorant Upright;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 4%;
+            color: #0C0C0C;
+        }
+    }
+}
+
+.menu {
+    background-image: url(../img/glass_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &_container {
+        width: 100%;
+        max-width: 1680px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 198px;
+
+        &--image {
+            margin-bottom: 125px;
+        }
+
+        &--link {
+            font-family: Cormorant Upright;
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 130%;
+            letter-spacing: 3%;
+            text-transform: capitalize;
+            color: #FFF;
+            margin-bottom: 64px;
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+
+            &:hover {
+                border-color: #FFF;
+            }
+        }
+    }
+}
+
+.specials {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 152px 0;
+
+    &_subtitle {
+        font-family: Cormorant Upright;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 4%;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+        color: #FFF;
+    }
+
+    &_title {
+        font-family: Cormorant Upright;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 4%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
