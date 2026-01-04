@@ -398,7 +398,12 @@
                 letter-spacing: 4%;
                 color: #AAA;
                 margin-bottom: 64px;    
-                width: 570px;            
+                width: 570px;    
+                margin-left: 10px;
+                
+                &--quotes {
+                    margin-right: 5px;
+                }
             }
 
             &--name {
