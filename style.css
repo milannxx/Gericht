@@ -411,12 +411,12 @@
 }
 
 .specials {
-  width: 100%;
-  max-width: 1300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 152px 0;
+  width: 100%;
+  max-width: 1300px;
+  margin: 152px auto;
 }
 .specials_subtitle {
   font-family: Cormorant Upright;
@@ -425,8 +425,8 @@
   line-height: 130%;
   letter-spacing: 4%;
   text-transform: capitalize;
-  margin-bottom: 8px;
   color: #FFF;
+  margin-bottom: 8px;
 }
 .specials_title {
   font-family: Cormorant Upright;
@@ -436,6 +436,165 @@
   letter-spacing: 4%;
   text-align: center;
   text-transform: capitalize;
+  color: #DCCA87;
+  margin-top: 8px;
+}
+.specials_container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 64px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.specials_container--card {
+  width: 100%;
+  max-width: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.specials_container--card--title {
+  font-family: Cormorant Upright;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFF;
+  margin-bottom: 8px;
+}
+.specials_container--card--box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.specials_container--card--box--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 412px;
+}
+.specials_container--card--box--content--title {
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #DCCA87;
+}
+.specials_container--card--box--content--price {
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFF;
+}
+.specials_container--card--box--subtitle {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: center;
+  color: #AAA;
+}
+.specials_button {
+  background-color: #DCCA87;
+  border: none;
+  color: #0C0C0C;
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  width: 136px;
+  height: 44px;
+}
+
+.chef {
+  background-image: url(../img/bg-chef.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.chef_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 128px 0;
+}
+.chef_container--content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chef_container--content--subtitle {
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #FFF;
+  margin-bottom: 8px;
+}
+.chef_container--content--title {
+  margin-top: 8px;
+  margin-bottom: 64px;
+  font-family: Cormorant Upright;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  color: #DCCA87;
+}
+.chef_container--content--text {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  color: #AAA;
+  margin-bottom: 64px;
+  width: 570px;
+}
+.chef_container--content--name {
+  font-family: Cormorant Upright;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #DCCA87;
+  margin-bottom: 8px;
+}
+.chef_container--content--job {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  color: #AAA;
+  margin-bottom: 64px;
+}
+.chef_absolute {
+  position: absolute;
+  bottom: -96px;
+  right: 287px;
 }
 
 body {
